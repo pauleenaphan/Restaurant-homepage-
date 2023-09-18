@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";!function(){const e=document.getElementById("content"),t=document.createElement("div");t.classList.add("homepage"),t.textContent="I am testing the homepage",e.append(t)}()})();
