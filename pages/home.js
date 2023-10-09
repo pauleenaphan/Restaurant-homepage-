@@ -15,17 +15,17 @@ export function home(){
     tabs.className = "tabs";
     home.append(tabs);
     
-    const home_tab = document.createElement("div");
+    const home_tab = document.createElement("button");
     home_tab.className = "tab";
     home_tab.textContent = "Home";
     tabs.append(home_tab);
 
-    const menu_tab = document.createElement("div");
+    const menu_tab = document.createElement("button");
     menu_tab.className = "tab";
     menu_tab.textContent = "Menu";
     tabs.append(menu_tab);
 
-    const contact_tab = document.createElement("div");
+    const contact_tab = document.createElement("button");
     contact_tab.className = "tab";
     contact_tab.textContent = "Contact Us";
     tabs.append(contact_tab);
@@ -60,7 +60,7 @@ export function home(){
 
     const footer = document.createElement("id");
     footer.id = "footer";
-    footer.textContent = "Pauleena"
+    footer.textContent = "Copyright @ 2023 Pauleena Phan";
     home.append(footer);
 }
 
