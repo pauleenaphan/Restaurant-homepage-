@@ -1,0 +1,68 @@
+*{
+    margin: 0 80px;
+    border-radius: 15px;
+    background-color: lightpink;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+/* homepage */
+.homepage, .menupage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    min-width: 500px;
+    
+}
+
+#title{
+    font-weight: bold;
+    font-size: 70px;
+    padding: 10%;
+    background-color: #a18b1f;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+}
+
+.tabs, .tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightgreen;
+    margin: 0 30px;
+    font-size: 30px;
+    border: none;
+}
+
+
+#about_desc{
+    background-color: red;
+    font-size: 30px;
+    padding: 50px;
+}
+
+#hours, #location{
+    background-color: yellow;
+    font-weight: bold;
+    margin: 0 30px;
+    font-size: 30px;
+}
+
+#hour_times, #loc_desc{
+    font-size: 30px;
+    padding: 40px;
+    /* margin-bottom: 30px; */
+    background-color: orange;
+}
+
+#hour_times{
+    background-color: red;
+}
+
+#footer{
+    background-color: #a18b1f;
+    padding: 30px;
+    font-size: 30px;
+}
+
+
