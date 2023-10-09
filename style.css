@@ -6,7 +6,7 @@
 }
 
 /* homepage */
-.homepage, .menupage{
+.homepage, .menupage, .contactpage{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: lightgreen;
+    background-color: rgb(12, 90, 12);
     margin: 0 30px;
     font-size: 30px;
     border: none;
@@ -62,7 +62,37 @@
 #footer{
     background-color: #a18b1f;
     padding: 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
+/* menupage and contact page*/
+.dishes, .contact_cards{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.dish_title{
+    background-color: yellow;
+    margin: 0 -50px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.dish_pic, .contact_img{
+    margin-bottom: 60px;
+}
+
+.dish_title:nth-child(3), .contact_name:nth-child(5){
+    background-color: rgb(12, 90, 12);
+}
+
+
+/* contact us page */
+.contact_name{
+    background-color: yellow;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0 -50px;
+}
