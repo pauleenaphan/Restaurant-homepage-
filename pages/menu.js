@@ -40,7 +40,7 @@ export function menu(){
 
     const p1 = document.createElement("img");
     p1.className = "dish_pic";
-    p1.src = '../img/bigbeanstack.jpg'
+    p1.src = '/dist/img/bigbeanstack.jpg'
     dishes.append(p1);
     
     const d2 = document.createElement("div");
@@ -50,7 +50,7 @@ export function menu(){
 
     const p2 = document.createElement("img");
     p2.className = "dish_pic";
-    p2.src = "../img/beanfries.jpg";
+    p2.src = "/dist/img/beanfries.jpg";
     dishes.append(p2);
 
     const d3 = document.createElement("div");
@@ -60,7 +60,7 @@ export function menu(){
 
     const p3 = document.createElement("img");
     p3.className = "dish_pic";
-    p3.src = "../img/water.jpg";
+    p3.src = "/dist/img/water.jpg";
     dishes.append(p3);
 
     const footer = document.createElement("id");
