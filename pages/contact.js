@@ -41,7 +41,7 @@ export function contact(){
 
     const pc1 = document.createElement("img");
     pc1.className = "contact_img";
-    pc1.src = "/dist/img/chefbean.png"
+    pc1.src = "img/chefbean.png"
     contact_cards.append(pc1);
 
     const c2 = document.createElement("div");
@@ -51,7 +51,7 @@ export function contact(){
 
     const pc2 = document.createElement("img");
     pc2.className = "contact_img";
-    pc2.src = "/dist/img/cheforeo.png";
+    pc2.src = "img/cheforeo.png";
     contact_cards.append(pc2);
 
     const c3 = document.createElement("div");
@@ -61,7 +61,7 @@ export function contact(){
 
     const pc3 = document.createElement("img");
     pc3.className = "contact_img";
-    pc3.src = "/dist/img/chefcoal.png";
+    pc3.src = "img/chefcoal.png";
     contact_cards.append(pc3);
 
     const c4 = document.createElement("div");
@@ -71,7 +71,7 @@ export function contact(){
 
     const pc4 = document.createElement("img");
     pc4.className = "contact_img";
-    pc4.src = "/dist/img/chefrocky.png";
+    pc4.src = "img/chefrocky.png";
     contact_cards.append(pc4);
 
     const footer = document.createElement("id");
