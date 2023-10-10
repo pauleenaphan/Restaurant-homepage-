@@ -5,6 +5,10 @@
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
+.tab{
+    cursor: pointer;
+}
+
 /* homepage */
 .homepage, .menupage, .contactpage{
     display: flex;
